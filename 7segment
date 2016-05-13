@@ -1,0 +1,102 @@
+void setup()
+{
+  // put your setup code here, to run once:
+  pinMode(3, OUTPUT); 
+  pinMode(4, OUTPUT); 
+  pinMode(5, OUTPUT); 
+  pinMode(6, OUTPUT); 
+  pinMode(7, OUTPUT); 
+  pinMode(8, OUTPUT); 
+  pinMode(9, OUTPUT); 
+}
+
+void num0()
+{
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+}
+
+void num1()
+{
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+}
+
+void num2()
+{
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(9, HIGH);
+  digitalWrite(7, HIGH);
+  digitalWrite(6, HIGH);
+}
+
+void num3()
+{
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(9, HIGH);
+}
+  
+void num4()
+{
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+}
+
+void num5()
+{
+  digitalWrite(3, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+}
+
+void num6()
+{
+  digitalWrite(3, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+}
+
+void num7()
+{
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);  
+}
+
+void loop()
+{
+  // put your main code here, to run repeatedly:
+  num0();
+  delay(1000);
+  num1();
+  delay(1000);
+  num2();
+  delay(1000);
+  num3();
+  delay(1000);
+  num4();
+  delay(1000);
+  num5();
+  delay(1000);
+  num6();
+  delay(1000);
+  num7();
+  delay(2000); 
+  
+}
