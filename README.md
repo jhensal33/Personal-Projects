@@ -1,3 +1,2 @@
-# summer2016
-Summer projects and learning-purpose demos;
-I'm just trying to become a master
+# Personal Projects
+Learning purpose projects that I've done in my spare time
